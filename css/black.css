@@ -1,0 +1,144 @@
+:root {
+    --bg: #0F0F0F;   
+    --text_color: #fff;
+    --main_color1: #fff;
+    --main_color2: #fff;
+}
+
+header .contacts a,
+.first_section .info .title,
+.block_head .title,
+.advantages .item .name,
+.advantages .item,
+.about .info .sub_title,
+.block_head .desc,
+.how_we_work .info .item .name,
+.reviews .review .name,
+.reviews .review .text,
+.big_boss_quote .info .name,
+.big_boss_quote .info .post,
+.big_boss_quote .info .text_block,
+.prices .item,
+.prices .item .price,
+.prices .item .price small,
+.documents .item,
+.faq .item .title,
+.faq .item .data,
+.form input[type=checkbox]+label,
+.contacts_block .info,
+.contacts_block .info .phone,
+.contacts_block .info .email,
+.stocks .stock .name a,
+.stocks .stock .info,
+.team .item .name,
+.team .item .post,
+.team .item .desc,
+.vacancies .item .name a,
+.vacancies .item .desc .title,
+.vacancies .item .desc,
+.services .name,
+.quiz_poll .step .title,
+.quiz_poll .step .desc,
+.products_category .info .counts,
+.products_category .info .price,
+.article_info .head .info .title,
+.article_info .head .info .title,
+.article_info .head .info .date,
+.text_block blockquote, .text_block q,
+.comments .share,
+.cart_info .product .amount button,
+.cart_info .product .price.total,
+.promocode_result.succces,
+.promocode_result.error,
+.cart_info .cart_total,
+.cart_empty .title,
+.cart_empty .desc,
+aside .block .title,
+aside .cats label,
+aside .filter .range .name,
+.irs-single, .irs-from, .irs-to,
+.form .label,
+.checkout_info .form .total_price,
+.checkout_info .form .total_price .val,
+.main_slider2 .info .title,
+.main_slider3 .info .title,
+.product_info .product_name,
+.product_info .buy .price,
+.product_info .buy .price .val.old,
+.product_info .buy .price .val,
+.product_info .cat a,
+.product_info .description,
+.char div span:first-child
+{
+    color:#fff;
+}
+
+header .menu,
+header .menu .item:hover>a, header .menu .item>a.active,
+header .menu .flexMenu-popup,
+header .menu .sub_menu, header .menu .item:hover>a.touch_link+.sub_menu,
+header .menu .flexMenu-viewMore:hover>a, header .menu .flexMenu-viewMore.active>a,
+header .menu .flexMenu-popup .item a:hover, header .menu .flexMenu-popup .item a.active,
+.form input[type=checkbox]+label:before,
+.image_tips .image .btn span:before, .image_tips .image .btn span:after,
+.image_tips .image .item.active .btn:before,
+.image_tips .image .item.active .btn span:before, .image_tips .image .item.active .btn span:after,
+.image_tips .image .info .link,
+aside .search .submit_btn,
+aside .block.submit .reset i:before, aside .block.submit .reset i:after,
+.pagination .prev, .pagination .next,
+#thanks .icon,header .socials a.more,.quiz_poll .success .icon
+{
+    background:#000;
+}
+
+.first_section .info .link, 
+.about .link,
+.block_head .all_link,
+.prices .item .link,
+.form .submit_btn,
+.vacancies .item .link,
+.block_head .link,
+.services .link,
+.form input[type=file]+label,
+.stock_finish .link a,
+.block_head .link,
+.quiz_poll .step .links>*,
+.form .input,
+.products .link,
+.article_info .head .all_link,
+.promocode_form button,
+.cart_info .cart_total .checkout_link,
+.cart_empty .link,
+.cart_link .count,
+aside .filter .submit_btn,
+.pagination a.active,
+#thanks .title span,
+.main_slider2 .info .link,
+.main_slider3 .info .link,
+.product_info .buy .buy_link, .product_info .buy .order_link,
+.char div span+span
+{
+    color:#000;
+}
+
+.stock_finish .timer, .stock_finish .timer .item .val>*, aside .block{
+    border-color:#fff;
+}
+.stock_finish .timer .item .val>*:before{
+    background: none;
+}
+
+.buttonUp button{
+    background-color:#000;
+}
+
+.cart_empty .icon svg * {
+    fill:#000;
+}
+
+.news_category a:hover, .news_category a.active{
+    background: #fff;
+    text-decoration: none;
+    color: #000;
+}

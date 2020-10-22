@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="693px" height="654px" viewBox="0 0 693 654" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Mask6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1028.32158,1689.25422 L1145.28033,1741.55477 C1169.44525,1752.36062 1188.3399,1772.30685 1197.82238,1797.02107 L1250.25553,1933.67775 C1259.10403,1956.73962 1259.10403,1982.26038 1250.25553,2005.32225 L1197.82238,2141.97893 C1188.3399,2166.69315 1169.44525,2186.63938 1145.28033,2197.44523 L1028.32158,2249.74578 C1002.34656,2261.36105 972.653439,2261.36105 946.67842,2249.74578 L829.71967,2197.44523 C805.554747,2186.63938 786.660104,2166.69315 777.177624,2141.97893 L724.744468,2005.32225 C715.895969,1982.26038 715.895969,1956.73962 724.744468,1933.67775 L777.177624,1797.02107 C786.660104,1772.30685 805.554747,1752.36062 829.71967,1741.55477 L946.67842,1689.25422 C972.653439,1677.63895 1002.34656,1677.63895 1028.32158,1689.25422 Z" id="path-1"></path>
+        <filter x="-10.4%" y="-8.7%" width="129.1%" height="126.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="26.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="23" dy="26" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="16" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0913188374 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-17" transform="translate(-667.000000, -1619.000000)">
+            <g id="Mask6" transform="translate(987.500000, 1969.500000) rotate(-90.000000) translate(-987.500000, -1969.500000) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <path stroke="#FFFFFF" stroke-width="26.5" d="M1033.73044,1677.15849 C1004.31373,1664.00419 970.68627,1664.00419 941.269561,1677.15849 L824.310811,1729.45904 C796.944035,1741.69666 775.545852,1764.28577 764.806943,1792.27462 L712.373788,1928.93131 C702.352863,1955.04887 702.352863,1983.95113 712.373788,2010.06869 L764.806943,2146.72538 C775.545852,2174.71423 796.944035,2197.30334 824.310811,2209.54096 L941.269561,2261.84151 C970.68627,2274.99581 1004.31373,2274.99581 1033.73044,2261.84151 L1150.68919,2209.54096 C1178.05596,2197.30334 1199.45415,2174.71423 1210.19306,2146.72538 L1262.62621,2010.06869 C1272.64714,1983.95113 1272.64714,1955.04887 1262.62621,1928.93131 L1210.19306,1792.27462 C1199.45415,1764.28577 1178.05596,1741.69666 1150.68919,1729.45904 L1033.73044,1677.15849 Z" fill="#C5C5C5" fill-rule="evenodd"></path>
+            </g>
+        </g>
+    </g>
+</svg>

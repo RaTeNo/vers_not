@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="662px" height="682px" viewBox="0 0 662 682" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1127.24442,1617.23743 L1341.92802,1692.62457 C1385.71162,1707.99938 1409.0726,1755.64823 1394.4127,1799.67636 L1261.83707,2197.84119 C1247.0067,2242.38127 1198.87745,2266.46575 1154.33737,2251.63539 C1141.901,2247.49449 1130.59079,2240.53352 1121.29082,2231.29659 L857.434388,1969.22893 C825.812195,1937.82112 823.819554,1887.32171 852.86866,1853.51988 L1034.61712,1642.03558 C1057.43833,1615.48059 1094.20815,1605.63659 1127.24442,1617.23743 Z" id="path-1"></path>
+        <filter x="-5.4%" y="-6.4%" width="119.7%" height="112.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="26.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="23" dy="26" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="16" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0913188374 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-18" transform="translate(-693.000000, -1655.000000)">
+            <g id="Rectangle" transform="translate(1111.077598, 1962.941870) scale(-1, 1) rotate(-315.000000) translate(-1111.077598, -1962.941870) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <path stroke="#FFFFFF" stroke-width="26.5" d="M1131.63442,1604.73581 C1112.5414,1598.03121 1092.36949,1597.52354 1073.67351,1602.52882 C1054.97753,1607.5341 1037.75748,1618.05234 1024.56816,1633.39955 L842.819699,1844.88386 C826.031025,1864.41933 818.212502,1888.7799 819.16009,1912.79458 C820.107678,1936.80926 829.821376,1960.47804 848.097143,1978.62991 L1111.95357,2240.69757 C1122.70325,2251.37437 1135.77652,2259.42043 1150.1515,2264.20682 C1175.89305,2272.7779 1202.67176,2270.10373 1225.15785,2258.85141 C1247.64395,2247.59908 1265.83743,2227.7686 1274.4085,2202.02706 L1406.98414,1803.86223 C1415.4567,1778.41656 1412.94234,1751.92461 1401.98376,1729.57264 C1391.02518,1707.22067 1371.62237,1689.00869 1346.31802,1680.12295 L1131.63442,1604.73581 Z" fill="#C5C5C5" fill-rule="evenodd"></path>
+            </g>
+        </g>
+    </g>
+</svg>

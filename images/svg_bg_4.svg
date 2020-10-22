@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="624px" height="506px" viewBox="0 0 624 506" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M370.168624,70 C532.3649,70 624.000001,151.070988 624.000001,303.106444 C624.000001,455.1419 518.277791,549.095257 380.190896,555.931544 C242.104001,562.767831 35.0000005,581.188432 35.0000005,455.1419 C35.0000005,329.095369 207.972347,70 370.168624,70 Z M184.244532,69.1007777 C215.649069,91.1042121 170.273197,146.173977 141.37556,183.842453 C112.477922,221.510929 68.2488299,234.863322 30.3691405,208.323109 C-7.51054457,181.782889 -9.66309764,141.841745 22.2792957,96.1947702 C54.2216932,50.5477983 152.839994,47.0973433 184.244532,69.1007777 Z" id="path-1"></path>
+        <filter x="-1.0%" y="-1.2%" width="101.9%" height="102.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="10" dy="-12" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.441412334   0 0 0 0 0.732053915   0 0 0 0 0.954483696  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-151.000000, -4215.000000)">
+            <g id="about" transform="translate(151.000000, 4160.000000)">
+                <g id="Combined-Shape" transform="translate(312.000000, 308.480411) scale(-1, 1) translate(-312.000000, -308.480411) ">
+                    <use fill="#929292" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
