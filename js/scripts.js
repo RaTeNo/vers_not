@@ -1,4 +1,5 @@
 $(function(){
+
 	// Основной слайдер на главной
 	$('.main_slider .slider').owlCarousel({
 		items: 1,
