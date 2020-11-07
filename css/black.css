@@ -118,7 +118,7 @@ aside .filter .submit_btn,
 .main_slider2 .info .link,
 .main_slider3 .info .link,
 .product_info .buy .buy_link, .product_info .buy .order_link,
-.char div span+span, header .contacts a, aside .mob_filter_link 
+.char div span+span, aside .mob_filter_link 
 {
     color:#000;
 }
@@ -150,7 +150,7 @@ aside .mob_filter_link img{
 
 @media (max-width: 1023px)
 {
-    aside .block .title, aside .cats label, aside .filter .range .name, .irs-single, .irs-from, .irs-to{
+    aside .block .title, aside .cats label, aside .filter .range .name, .irs-single, .irs-from, .irs-to,header .contacts a{
         color:#000;
     }
     aside .cats label:after, .irs-slider, .irs-bar{
@@ -160,8 +160,20 @@ aside .mob_filter_link img{
         color: #fff;
         background-color:#000;
     }
+
+    .mob_header .contacts a, .new_contact, .mob_header .socials a.more{
+        background-color:#000;
+    }
 }
 
 header .menu .flexMenu-viewMore:hover>a{
     background-color:#fff !important;
+}
+
+.contact-button svg > *{
+    fill:#000;
+}
+
+#contactButton a{
+    background-color: #fff !important;
 }
