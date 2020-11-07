@@ -1091,9 +1091,17 @@ header .menu .item>a span:after {
     border-left: 2px solid #fff;
 }
 
-header .menu .item:hover>a,
+header .menu .item:hover>a{
+   color:#000 !important;
+     background: #fff;
+}
 header .menu .item>a.active {
-    background: var(--main_color1);
+    background: #fff;
+    color:#000;
+}
+header .menu .flexMenu-popup .item:hover{
+        background: #fff;
+    color:#000 !important;
 }
 
 header .menu .sub_menu,
@@ -1138,7 +1146,8 @@ header .menu .sub_menu a {
 
 header .menu .sub_menu a:hover,
 header .menu .sub_menu a.active {
-    background: var(--main_color1);
+    background: #fff;
+    color:#000;
 }
 
 header .menu .flexMenu-viewMore {
@@ -1184,7 +1193,8 @@ header .menu .flexMenu-viewMore>a span:after {
 
 header .menu .flexMenu-viewMore:hover>a,
 header .menu .flexMenu-viewMore.active>a {
-    background: var(--main_color1);
+    background: #fff;
+    color:#000;
 }
 
 header .menu .flexMenu-popup {
@@ -1238,7 +1248,8 @@ header .menu .flexMenu-popup .item>a .icon {
 
 header .menu .flexMenu-popup .item a:hover,
 header .menu .flexMenu-popup .item a.active {
-    background: var(--main_color1);
+
+    color:#000;
 }
 
 header .menu .flexMenu-popup .sub_menu,
@@ -2697,7 +2708,7 @@ font-size: 32px;
 }
 
 .faq .item.active .title:after {
-    color:#fff;
+    color:#000;
     transform: rotate(90deg);
 }
 
@@ -2793,8 +2804,8 @@ font-size: 32px;
 
 .order_block .form .socials img {
     display: block;
-    width: 39px;
-    height: 39px;
+    width: 50px;
+    height: 50px;
 }
 
 .order_block .form .submit {
@@ -5201,16 +5212,17 @@ button:disabled{
 }
 
 .contacts_info .info .flex>* {
-    width: calc(33.333% - 40px);
+    width: 100%;
     margin-bottom: 40px;
     margin-left: 40px;
 }
 
 .contacts_info .info .item {
     position: relative;
-    padding: 20px 20px 20px 90px;
+    padding: 50px;
     border-radius: 18px;
-    background: var(--main_color_opacity);
+    background: #000;
+
 }
 
 .contacts_info .info .icon {
@@ -5227,6 +5239,7 @@ button:disabled{
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
+    display:none;
 }
 
 .contacts_info .info .icon img {
@@ -5236,17 +5249,17 @@ button:disabled{
 }
 
 .contacts_info .info .title {
-    color: #283040;
-    font-size: 16px;
+    color: #fff;
+    font-size: 40px;
     font-weight: 500;
-    line-height: 19px;
+    line-height: 40px;
     margin-bottom: 11px;
 }
 
 .contacts_info .info .val {
-    color: #67758d;
-    font-size: 14px;
-    line-height: 20px;
+    color: #fff;
+    font-size: 26px;
+    line-height: 30px;
     letter-spacing: .38px;
 }
 
@@ -5255,13 +5268,13 @@ button:disabled{
 }
 
 .contacts_info .info .val a {
-    color: #68adff;
+    color: #fff;
     display: inline-block;
     vertical-align: top;
     letter-spacing: 1.27px;
     word-break: break-all;
 }
-
+/*
 .contacts_info .info .val a.ic_whatsapp {
     padding-left: 21px;
     background: url(../images/ic_soc3.svg) 0 50%/15px 15px no-repeat;
@@ -5280,7 +5293,7 @@ button:disabled{
 .contacts_info .info .val a.ic_insta {
     padding-left: 21px;
     background: url(../images/ic_soc2.svg) 0 50%/15px 15px no-repeat;
-}
+}*/
 
 .contacts_info .info .val a:hover {
     text-decoration: none;

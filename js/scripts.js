@@ -939,7 +939,8 @@ $(function(){
 			'.char div span+span',	
 			'header .menu .flexMenu-viewMore>a',
 			'.news .info .name',
-			'.news .info .date'
+			'.news .info .date',
+			'header .menu .flexMenu-popup .item a',			
 
 		];
 	let count_size = 0;

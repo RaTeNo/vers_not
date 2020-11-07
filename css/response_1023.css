@@ -1441,7 +1441,6 @@
 
     .contacts_info .info .flex > *
     {
-        width: calc(50% - 20px);
         margin-bottom: 20px;
         margin-left: 20px;
     }
