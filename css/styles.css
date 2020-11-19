@@ -5427,7 +5427,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #101010;
+    color: #fff;
 }
 
 footer .links {
@@ -5456,7 +5456,7 @@ footer .links a {
 }
 
 footer .links a:hover {
-    color: #101010;
+    color: #fff;
 }
 
 /*---------------   PopUp---------------*/

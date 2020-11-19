@@ -69,7 +69,7 @@ aside .filter .range .name,
 .product_info .cat a,
 .product_info .description,
 .char div span:first-child,
-footer a:hover, .stock_finish .timer .item
+footer a:hover, .stock_finish .timer .item,.pagination a.active:hover
 {
     color:#fff;
 }
@@ -177,3 +177,4 @@ header .menu .flexMenu-viewMore:hover>a{
 #contactButton a{
     background-color: #fff !important;
 }
+

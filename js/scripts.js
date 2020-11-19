@@ -799,29 +799,35 @@ $(function(){
 		window.location.reload(true)
 	});
 
-
+	let control = true;
 
 	$('.white_bg').click(function(e){
 		e.preventDefault();
-		$(this).addClass("active");
-		$('.black_bg').removeClass("active");
+		if(!control){
+			$(this).addClass("active");
+			$('.black_bg').removeClass("active");
 
-		$("#black").remove();
+			$("#black").remove();
+			control = true;
+		}
 		
 
 	});
 
 	$('.black_bg').click(function(e){
 		e.preventDefault();
-		$(this).addClass("active");
-		$('.white_bg').removeClass("active");
+		if(control){
+			$(this).addClass("active");
+			$('.white_bg').removeClass("active");
 
-		let head = window.document.getElementsByTagName('head')[0]
-		let style = window.document.createElement('link')
-		style.href = "css/black.css";
-		style.id = "black";
-		style.rel = 'stylesheet'
-		head.appendChild(style)
+			let head = window.document.getElementsByTagName('head')[0]
+			let style = window.document.createElement('link')
+			style.href = "css/black.css";
+			style.id = "black";
+			style.rel = 'stylesheet'
+			head.appendChild(style)
+			control = false;
+		}
 
 
 	});
