@@ -715,20 +715,6 @@ $(function(){
 	}
 
 
-	$('.tab_filter_title').click(function(e){
-		e.preventDefault()	
-		if($(this).hasClass("active"))
-		{
-			$(this).removeClass("active");
-			$(this).next().slideUp();
-		}	
-		else
-		{
-			$(this).addClass("active");
-			$(this).next().slideDown();
-		}
-
-	})
 
 
 	// Логотип
@@ -1019,6 +1005,32 @@ $(function(){
 
 	    root.style.setProperty('--main_color_opacity', "rgba("+rgba_opacity+",0.1)");	    
     }
+
+
+    $('.tab_filter_title span, .tab_filter_title i').click(function(e){
+		e.preventDefault()	
+		if($(this).parent().hasClass("active"))
+		{
+			$(this).parent().removeClass("active");
+			$(this).parent().next().slideUp();
+		}	
+		else
+		{
+			$(this).parent().addClass("active");
+			$(this).parent().next().slideDown();
+		}
+
+	})
+
+	$(".parent_cat").on('change', function() {
+		if($(this).attr("checked")){
+			$(this).parent().next().find("input").prop('checked', true);
+		}
+		else
+		{
+			$(this).parent().next().find("input").prop('checked', false);
+		}
+	});
 
 
 

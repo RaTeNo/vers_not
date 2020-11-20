@@ -146,7 +146,7 @@ $(function(){
 
 
 	// Аккордион
-	$('body').on('click', '.accordion .item .title', function(e) {
+	/*$('body').on('click', '.accordion .item .title', function(e) {
 		e.preventDefault()
 
 		let parent = $(this).closest('.item')
@@ -162,7 +162,7 @@ $(function(){
 			parent.addClass('active')
 			parent.find('.data').slideDown(300)
 		}
-	})
+	})*/
 
 
 	// Моб. версия

@@ -164,6 +164,10 @@ aside .mob_filter_link img{
     .mob_header .contacts a, .new_contact, .mob_header .socials a.more{
         background-color:#000;
     }
+
+    aside .cats input:checked + label:before{
+        border-color: #000;
+    }
 }
 
 header .menu .flexMenu-viewMore:hover>a{
