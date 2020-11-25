@@ -980,6 +980,7 @@ header .contacts {
     margin-left: 40px;
     letter-spacing: -.21px;
     flex-shrink: 0;
+    max-width: 350px;
 }
 
 header .contacts a {
@@ -5546,7 +5547,7 @@ color: #7c7c7c;
 
 .file-chooser label{
     color: #fff;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: bold;
     display: inline-block;
 
@@ -5556,6 +5557,8 @@ color: #7c7c7c;
     letter-spacing: 1.32px;
     background: var(--main_color1);
     padding:0 20px;
+        line-height: 54px;
+    height: 54px;
 }
 
 .file-uploader {

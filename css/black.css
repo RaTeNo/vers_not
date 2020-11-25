@@ -118,7 +118,7 @@ aside .filter .submit_btn,
 .main_slider2 .info .link,
 .main_slider3 .info .link,
 .product_info .buy .buy_link, .product_info .buy .order_link,
-.char div span+span, aside .mob_filter_link 
+.char div span+span, aside .mob_filter_link,.file-chooser label
 {
     color:#000;
 }
@@ -168,6 +168,9 @@ aside .mob_filter_link img{
     aside .cats input:checked + label:before{
         border-color: #000;
     }
+    header .menu .item>a.active{
+        color: #fff;
+    }
 }
 
 header .menu .flexMenu-viewMore:hover>a{
@@ -181,4 +184,5 @@ header .menu .flexMenu-viewMore:hover>a{
 #contactButton a{
     background-color: #fff !important;
 }
+
 
