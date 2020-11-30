@@ -133,6 +133,7 @@
         transform: translateX(-100%);
 
         background: #fff;
+        margin-top:63px;
     }
 
     header.show
@@ -1563,6 +1564,10 @@
         line-height: 60px;
         font-size: 17px;
         height:60px;
+    }
+
+    header .contacts a, header .menu .flexMenu-popup .item a, header .menu .flexMenu-popup .item:first-child a, header .menu .flexMenu-popup .item:last-child a{
+            word-break: break-all;
     }
 
 }
