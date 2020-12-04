@@ -75,11 +75,10 @@ footer a:hover, .stock_finish .timer .item,.pagination a.active:hover
 }
 
 header .menu,
-header .menu .item:hover>a, header .menu .item>a.active,
+header .menu .item:hover>a,
 header .menu .flexMenu-popup,
 header .menu .sub_menu, header .menu .item:hover>a.touch_link+.sub_menu,
 header .menu .flexMenu-viewMore:hover>a, header .menu .flexMenu-viewMore.active>a,
- header .menu .flexMenu-popup .item a.active,
 .form input[type=checkbox]+label:before,
 .image_tips .image .btn span:before, .image_tips .image .btn span:after,
 .image_tips .image .item.active .btn:before,
